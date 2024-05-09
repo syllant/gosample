@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_syllant_gosample_1715291555483-push-trigger-input-set
+  identifier: Build_syllant_gosample_1715291555483pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gosample
+  pipeline:
+    identifier: Build_syllant_gosample_1715291555483
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
